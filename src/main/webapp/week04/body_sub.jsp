@@ -13,6 +13,8 @@
 	<ul>
 		<%
 			String[] nameArray = request.getParameterValues("name");
+			String test = request.getParameter("name");
+			System.out.println(test);
 			for(String name : nameArray) {
 		%>
 			<li><%=name %></li>

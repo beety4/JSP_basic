@@ -1,4 +1,4 @@
-CREATE DATABASE jspDB;
+CREATE DATABASE jspDB character set utf8;
 use jspDB;
 
 CREATE TABLE emp (
